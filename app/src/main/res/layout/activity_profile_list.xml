@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileList"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="@android:color/holo_orange_dark"
+            app:titleTextColor="#ffff"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:id="@+id/toolbarAddStory">
+
+            <ImageButton
+                android:id="@+id/back2"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:onClick="back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Profile"
+                android:textColor="#ffff"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <EditText
+        android:id="@+id/usernameP"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="author" />
+
+    <ListView
+        android:paddingTop="40dp"
+        android:id="@+id/profile_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorToolbar"
+        android:outlineSpotShadowColor="@color/colorToolbar"
+        android:outlineAmbientShadowColor="@color/colorToolbar"/>
+
+
+
+</LinearLayout>

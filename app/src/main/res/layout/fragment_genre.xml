@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#ffffe0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorToolbar"
+        android:gravity="center"
+        android:text="Find Story By :"
+        android:textColor="#ffffe0"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Gromance"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#ef95c4"
+            android:text="#Romance
+genre"
+            android:textColor="#ffffe0" />
+
+
+        <Button
+            android:id="@+id/Gthriller"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#b45151"
+            android:text="#Thriller
+genre"
+            android:textColor="#ffffe0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Gcomedy"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#7da9be"
+            android:text="#Comedy
+genre"
+            android:textColor="#ffffe0" />
+
+        <Button
+            android:id="@+id/Ghorror"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#483f3f"
+            android:text="#Horror
+genre"
+            android:textColor="#ffffe0" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_ble/gromance"-->
+        <!--android:text="Romance"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Thriller"-->
+        <!--android:textSize="20dp"/>-->
+    <!--<ImageButton-->
+        <!--android:background="#ffff"-->
+        <!--android:id="@+id/Gthriller"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/gthriller"-->
+        <!--android:text="Thriller"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Comedy"-->
+        <!--android:textSize="20dp"/>-->
+    <!--<ImageButton-->
+        <!--android:background="#ffff"-->
+        <!--android:id="@+id/Gcomedy"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/ghumor"-->
+        <!--android:text="Comedy"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Horror"-->
+        <!--android:textSize="20dp"/>-->
+    <!--<ImageButton-->
+        <!--android:background="#ffff"-->
+        <!--android:id="@+id/Ghorror"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/ghorror"-->
+        <!--android:text="Horror"/>-->
+</RelativeLayout>
